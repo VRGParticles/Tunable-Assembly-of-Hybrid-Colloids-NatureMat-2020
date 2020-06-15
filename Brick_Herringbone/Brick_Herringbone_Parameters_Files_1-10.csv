@@ -1,0 +1,4 @@
+﻿apara,aperp1,aperp2,areamin,bandpass_bpass,bandpass_strel,bwareafilt_param_1,bwareafilt_param_2,bwareaopen_param,crop,distance_neighbors,distmax_parallel,distmax_perp,distmin_parallel,distmin_perp,imgauss_param,malmin,perimin,x1,x2,y1,y2
+10,60,120,70,1,1,80,160,30,0,27,25,25,0,0,2,7,15,0,200,0,200
+,,,,,,,,,,,,,,,,,,,,,
+USED FOR FILE #s,1 -- 10,,,,,,,,,,,,,,,,,,,,
