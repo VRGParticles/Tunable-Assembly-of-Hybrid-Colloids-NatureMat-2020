@@ -4,7 +4,7 @@ This is a repository for the three custom algorithms used in:
 *Tunable Assembly of Hybrid Colloids Induced by Regioselective Depletion*, NatureMat, 2020.  
 
 This repository provides image analysis for micrographs of polymorphic particle/colloid assemblies.  
-Particles are classified into positional/rotational order or plane symmetry groups.  The summarized data is found in Figure 4, as well as Supplementary Tables 1-3.
+Particles are classified into positional/rotational order or plane symmetry groups.  The summarized data is found in Figure 4, as well as Supplementary Tables 1-3 of the manuscript.
 
 ![Image](https://dl.boxcloud.com/api/2.0/internal_files/677676466958/versions/719227641758/representations/png_paged_2048x2048/content/1.png?access_token=1!6tR27cEQRYmO4oIB67Q89ZlfeFalJkz_SaX7hWMZ3XXtZdYqRFgUdCONctbaY4ObzJk9azLyrarxuy1xSbPiFRvCdQqcGHxolYTKJGvrGeDLaBd1cxi6_1naPjZSHRA17vTJ51Ron09__QiI2v102Gcn_0n8iiZK7CoHInR2o2BZISvmcC5IwHEV0ItBYi6-s3Qanc8Me1Jjwo5WsIh8YZv1NgfNF7cfycGyuLc_Mu_j_uMey2f3cCKpaPnehb58N-pfn4yYUyJtpedaaA4lWXq-KYdUqzZlAnDaHbIW0B3cqdBVcY-_014FAKOEKSz3tI76nDf8ByBgTecvdEJpKotRZ3nh7AduXj9eeldaSq6rlCMdWpKyzy-9WOrVYUo8CHQjqUgXiDMp_Hdv8Q9Q7ilJFm8aNq_X5tSMI0Uur01RhL4EcPZHH7MwNT7YL8BwQy-A_MFzVbzm6jvJBST42Aczo7YDcO6FwWFM3EIA1hzGu5OVXEkekYNEW15Dvgn_cGWih9dg40fkRxc5zwn7CEhMysXSLyyoPU4nCfeFHCsg7kY4BrVYZMvMg9oMPUug9dHr&shared_link=https%3A%2F%2Fnyu.app.box.com%2Fv%2FNM-Regioselective-Depletion&box_client_name=box-content-preview&box_client_version=2.43.0)
 # What is Included #
@@ -13,11 +13,11 @@ There are three folders, one for each algorithm / particle classifier.
 
 **MATLAB Files (.m):**
 
-*Brick_Amorphous:* Amorphous (positional order only),  Brick (cmm plane symmetry group), Shared (boundary of both classes), and Disorder (none of the 3 previous classes).
+*Brick_Amorphous:* Amorphous (positional order only),  Brick (*cmm* plane symmetry group), Shared (boundary of both classes), and Disorder (none of the 3 previous classes).
 
-*Brick_Herringbone:* Herringbone (pgg plane symmetry group), Brick (cmm plane symmetry group),  Shared (boundary of both classes), and Disorder (none of the 3 previous classes).
+*Brick_Herringbone:* Herringbone (*pgg* plane symmetry group), Brick (*cmm* plane symmetry group),  Shared (boundary of both classes), and Disorder (none of the 3 previous classes).
 
-*Brick_Square:* Square (p4m plane symmetry group), Brick (cmm plane symmetry group),  Shared (boundary of both classes), and Disorder (none of the 3 previous classes).
+*Brick_Square:* Square (*p4m* plane symmetry group), Brick (*cmm* plane symmetry group),  Shared (boundary of both classes), and Disorder (none of the 3 previous classes).
 
 
 Associated **parameter files** are included to replicate the results found in the manuscript (.csv).
@@ -32,6 +32,7 @@ the conditions are customized to the desired output, for example, herringbone vs
 *MATLAB Requirements*
 
 To use these files, you must have MATLAB installed.  Scripts were written using MATLAB R2019b. These algorithms use the Image Processing Toolbox and the Statistics and Machine Learning Toolbox.
+
 *Other MATLAB Prerequisites*
 
 Each script calls upon the function, [bpass](http://www.physics.emory.edu/faculty/weeks/idl/kit/bpass.pro), copyright 1997, John C. Crocker and David G. Grier.
