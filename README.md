@@ -38,8 +38,8 @@ Each script calls upon the function, [bpass](http://www.physics.emory.edu/facult
 
 *Input Files*
 
-The raw images/micrographs are located in their [associated folders](https://nyu.app.box.com/v/NM-Regioselective-Depletion/folder/115393668444) as part of Data Availibility.
-In each of these folders, the 10 input images are labeled in order as found in the Supplementary Tables 1-3.  The resulting labeled figures, as well as a figure legend, are also availible.
+The raw images/micrographs are located in their [associated folders](https://nyu.app.box.com/v/NM-Regioselective-Depletion/folder/115393668444) as part of Data Availability.
+In each of these folders, the 10 input images are labeled in order as found in the Supplementary Tables 1-3.  The resulting labeled figures, as well as a figure legend, are also available.
 The obtained labeled images, as well as the output analysis data, can be replicated by downloading these input files and running the file(s) with the associated parameters found in the corresponding repository folder.  The parameter files are labeled for which images they correspond to, if applicable.
 
 ## Running the Scripts
@@ -70,8 +70,9 @@ and ultimately what the final classification criteria is for each class.  The us
 added to a distance threshold) for a differently customized algorithm.  Similarly, the names of classes or color labels of particles can be changed.
 ```
 Tip: Once the desired parameters are found/testing parameters for the image is no longer needed, the 
-figure creation within MATLAB can be surpressed by changing 'figure;' to 'figure('visible', 'off');'
+figure creation within MATLAB can be suppressed by changing 'figure;' to 'figure('visible', 'off');'
 If a labeled figure is not needed, the two figure creation sections can be commented.
+If the legend is not desired, the legend section can similarly be commented.
 ```
 
 
