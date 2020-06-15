@@ -6,7 +6,7 @@ This is a repository for the three custom algorithms used in:
 This repository provides image analysis for micrographs of polymorphic particle/colloid assemblies.  
 Particles are classified into positional/rotational order or plane symmetry groups.  The summarized data is found in Figure 4, as well as Supplementary Tables 1-3 of the manuscript.
 
-![Image](https://public.boxcloud.com/api/2.0/internal_files/677678131683/versions/719229398883/representations/png_paged_2048x2048/content/1.png?access_token=1!iuzsulTJqLNbNYFimE58aml6W975-OGvIKMIZcWhKfQRSPjOecZP0QHPkcBJ3CkqhhRiIuisVBFfB8i__A2ozfABt7-58uxlLUX4iYgcJdDFx2lWwbO2VcIJJTxtQ20Vlpy-KNv7iEZN0wY2_2yxLyrHIe0E-WRWm_62gpTjkr16mNdH5pB5J_noGfnz9B830kqfXPAbNM1HnHpwfO1Kix3Sf_T80d3KiQyISh38EaMuTSVPFnojwrBxJ1vq3S7dN3ESD8ZDZZDZ3yS7XcZFO_UUP44-TOypgmNWlTpINb-zphHRJD3d4FUYNos4iBlVYJ2OYto7csewu7fVze__33QUw6Y1rSfqYjUMSBNeWkWc7WIsEvYBgvexKT0ZfiWa6ZbXof_MY19gZFTgl2IFxyhLshcGaIs0M2OEOGRGuXp657dqVwbJTRsBIikKPzy0KZy7MhnEutiemARack-utZclc6t6HfXzYOK8TcSukcinAMtttGIBORJ4r_jQ4joKQ24oYgGLI0XaEL7i4DbD1Jb7TrHCo1_ftwT9otjqHw_S8e0RiQS8-T-oT06dmeb50DGd&shared_link=https%3A%2F%2Fnyu.app.box.com%2Fv%2FNM-Regioselective-Depletion&box_client_name=box-content-preview&box_client_version=2.43.0)
+![Image](PLACEHOLDER)
 # What is Included #
 There are three folders, one for each algorithm / particle classifier.
 
@@ -39,8 +39,8 @@ Each script calls upon the function, [bpass](http://www.physics.emory.edu/facult
 
 *Input Files*
 
-The raw images/micrographs are located in their [associated folders](https://nyu.app.box.com/v/NM-Regioselective-Depletion/folder/115393668444) as part of Data Availability.
-In each of these folders, the 10 input images are labeled in order as found in the Supplementary Tables 1-3.  The resulting labeled figures, as well as a figure legend, are also available.
+The raw images/micrographs are located in their [associated folders](PLACEHOLDER) as part of Data Availability.
+In each of these folders of Figure 4, the 10 input images are labeled in order as found in the Supplementary Tables 1-3. The Excel files under the Supplementary Tables 1-3 shows the summaries of recognition results. The resulting labeled figures, as well as a figure legend, are also available.
 The obtained labeled images, as well as the output analysis data, can be replicated by downloading these input files and running the file(s) with the associated parameters found in the corresponding repository folder.  The parameter files are labeled for which images they correspond to, if applicable.
 
 ## Running the Scripts
