@@ -49,7 +49,7 @@ To run the script, the path/directory of the image must be edited into the 'file
 All other parameters below these two variables are pre-loaded with one of the parameters found in the script folder repository.  For a new image, these parameters will have to be tweaked until appropriate for the image.
 ```
 Tip: For analysis of your own image (not provided by this repository), use the MATLAB function
-imshow below each image segmentation step to find reasonable input parameters for your image.
+'imshow' below each image segmentation step to find reasonable input parameters for your image.
 ```
 When the script is then run, the image(s) are read into the workspace and analyzed.  If a wildcard (*.filetype) is used and there are multiple files of the same type in the directory, the script will loop through these images and analyze each.
 
