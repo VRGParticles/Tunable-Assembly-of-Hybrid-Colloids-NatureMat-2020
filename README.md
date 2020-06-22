@@ -1,7 +1,7 @@
 # Tunable-Assembly-of-Hybrid-Colloids-NatureMat-2020
 This is a repository for the three custom algorithms used in: 
 
-*Tunable Assembly of Hybrid Colloids Induced by Regioselective Depletion*, NatureMat, 2020.  
+*Placeholder*
 
 This repository provides image analysis for micrographs of polymorphic particle/colloid assemblies.  
 Particles are classified into positional/rotational order or plane symmetry groups.  The summarized data is found in Figure 4, as well as Supplementary Tables 1-3 of the manuscript.
