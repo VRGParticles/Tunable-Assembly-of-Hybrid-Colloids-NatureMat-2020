@@ -1,12 +1,11 @@
 # Tunable-Assembly-of-Hybrid-Colloids-NatureMat-2020
 This is a repository for the three custom algorithms used in: 
 
-*Placeholder*
+[*Tunable assembly of hybrid colloids induced by regioselective depletion*](https://www.nature.com/articles/s41563-020-0744-2)
 
 This repository provides image analysis for micrographs of polymorphic particle/colloid assemblies.  
 Particles are classified into positional/rotational order or plane symmetry groups.  The summarized data is found in Figure 4, as well as Supplementary Tables 1-3 of the manuscript.
 
-![Image](PLACEHOLDER)
 # What is Included #
 There are three folders, one for each algorithm / particle classifier.
 
@@ -39,7 +38,7 @@ Each script calls upon the function, [bpass](http://www.physics.emory.edu/facult
 
 *Input Files*
 
-The raw images/micrographs are located in their [associated folders](PLACEHOLDER) as part of Data Availability.
+The raw images/micrographs are located in their [associated folders](https://nyu.app.box.com/v/NM-Regioselective-Depletion/folder/115393668444) as part of Data Availability.
 In each of these folders of Figure 4, the 10 input images are labeled in order as found in the Supplementary Tables 1-3. The Excel files under the Supplementary Tables 1-3 shows the summaries of recognition results. The resulting labeled figures, as well as a figure legend, are also available.
 The obtained labeled images, as well as the output analysis data, can be replicated by downloading these input files and running the file(s) with the associated parameters found in the corresponding repository folder.  The parameter files are labeled for which images they correspond to, if applicable.
 
@@ -91,7 +90,7 @@ MATLAB related issues can be solved by viewing the [MATLAB documentation.](https
 
 * **Veronica Grebe** - [Weck Group, New York University](http://weckresearch.com/home)
 
-For a full list of manuscript authors who contributed to the overall project, see the [manuscript](PLACEHOLDER).
+For a full list of manuscript authors who contributed to the overall project, see the [manuscript](https://www.nature.com/articles/s41563-020-0744-2).
 
 ### License
 
